@@ -1,0 +1,32 @@
+name: DailyRewards
+author: heymydude
+main: me.Halflove.DailyRewards.Main.Main
+version: 0.0.1v
+softdepend: [PlaceholderAPI]
+api-version: 1.16
+
+commands:
+  mythicdailyadmin:
+    usage: /<command>
+    description: Admin master command.
+    aliases: [md, mdaadmin]
+  mythichourlyadmin:
+    usage: /<command>
+    description: Admin master command.
+    aliases: [mh, mhadmin]
+  mythichourly:
+    usage: /<command>
+    description: Claim a reward.
+    aliases: [mythichourly]
+  mythicdaily:
+    usage: /<command>
+    description: Claim a reward.
+    aliases: [mythicdaily]
+  dailyitem:
+    usage: /<command>
+    description: mythicdailyitem Command
+    aliases: [dailyitem]
+  hourlyitem:
+    usage: /<command>
+    description: mythichourlyitem Command
+    aliases: [dailyitem]
